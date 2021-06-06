@@ -1,0 +1,47 @@
+@import '../../styles/variables';
+
+.btn {
+    border-radius: 3px;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    transition: all .3s;
+    &:disabled {
+        cursor: default;
+    }
+}
+.btnOutline {
+    background-color: #f2f2f2;
+    color: #b3b3b3;
+    border-bottom: 2px solid #e6e6e6;
+    &:hover {
+        color: #fff;
+        background-color: $primary;
+        border-bottom: 2px solid #011731;
+    }
+}   
+.btnSecondary {
+    color: #f2f2f2;
+    background-color: $secondary;
+    border: 1px solid $secondary;
+    &:hover {
+        background-color: #f2f2f2;
+        color: $secondary;
+        border: 1px solid #f2f2f2;
+    }
+}
+.btnContained {
+    color: #fff;
+    background-color: $primary;
+    border-bottom: 2px solid #011731;
+    &:hover {
+        background-color: #f2f2f2;
+        color: #b3b3b3;
+        border-bottom: 2px solid #e6e6e6;
+    }
+}
+.btnActive {
+    color: #fff;
+    background-color: $primary;
+    border-bottom: 2px solid #011731;
+}

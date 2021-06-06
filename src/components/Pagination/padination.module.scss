@@ -1,0 +1,29 @@
+@import '../../styles/variables';
+
+.wrapper {
+  display: flex;
+  justify-content: flex-start;
+  margin: 15px 0;
+  @media (max-width: 768px) {
+      overflow: scroll;
+  }
+}
+.paginationWrapperBtn {
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    transition: all .3s;
+    margin-right: 3px;
+    line-height: 35px;
+    &:hover {
+        background-color: $primary;
+        color: $light;
+    }
+}
+.paginationWrapperBtnActive {
+    background-color: $primary;
+    color: $light;
+}

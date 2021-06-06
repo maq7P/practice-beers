@@ -1,0 +1,14 @@
+.filterBlock {
+    margin-top: 15px;
+    @media (max-width: 1024px) {
+        overflow: scroll;
+        display: flex;
+    }
+}
+.btn {
+    margin-right: 10px;
+    @media (max-width: 1024px) {
+        padding: 10px;
+        min-width: 130px;
+    }
+}

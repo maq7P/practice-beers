@@ -1,0 +1,27 @@
+.wrapper{
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 30px;
+    max-width: 600px;
+    &:nth-child(2n+1) {
+        margin-right: 30px;
+    }
+    @media (max-width: 1024px) {
+        &:nth-child(2n+1) {
+            margin-right: 0px;
+        }
+        max-width: 100%;
+        width: 100%;
+    }
+}
+.title {
+    margin-bottom: 15px;
+}
+.imgBlock {
+    margin-right: 50px;
+}
+.img {
+    width: 100px;
+    height: 300px;
+}
